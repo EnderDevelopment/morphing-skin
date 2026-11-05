@@ -1,0 +1,13 @@
+name: MorphingSkin
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Morph your player skin into different forms.
+commands:
+  skin:
+    description: Opens the skin morphing menu or applies a skin.
+    usage: /skin [name|reset]
+permissions:
+  morphingskin.use:
+    description: Allows using the skin morphing commands.
+    default: true

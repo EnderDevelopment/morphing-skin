@@ -1,0 +1,30 @@
+# MorphingSkin configuration.
+# Define your morphing skins here. Each skin needs:
+#   display:    The name shown in the /skin menu.
+#   material:   The GUI icon material (defaults to PLAYER_HEAD which shows the skin texture).
+#   texture:    The base64 encoded skin "value" from a skin site (e.g. mineskin.org).
+#   signature:  The base64 "signature" for that skin. Leave empty/omit if unknown.
+#
+# To get texture values: generate a skin on a site like mineskin.org or
+# use the skin's base64 value + signature from https://mineskin.org.
+skins:
+  enderman:
+    display: Enderman
+    material: PLAYER_HEAD
+    texture: ""
+    signature: ""
+  zombie:
+    display: Zombie
+    material: ZOMBIE_HEAD
+    texture: ""
+    signature: ""
+  creeper:
+    display: Creeper
+    material: CREEPER_HEAD
+    texture: ""
+    signature: ""
+  blaze:
+    display: Blaze
+    material: BLAZE_ROD
+    texture: ""
+    signature: ""
